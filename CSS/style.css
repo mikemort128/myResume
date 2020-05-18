@@ -1,3 +1,33 @@
-h1 {
-	color: red;
+body{
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    grid-template-areas: 
+        "s r r"
+    ;
+}
+
+.resumeArea{
+	grid-area: r;
+	background-color:blue;
+}
+
+h1{
+	margin-bottom: -14px;
+}
+
+h3 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.jobLocation{
+	font-weight: bold;
+}
+
+.jobTitle{
+	font-style: italic;
+}
+
+p {
+  margin-bottom: -16px;
 }
