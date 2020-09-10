@@ -1,91 +1,93 @@
-body{
-	margin: 0px;
-	font-family: arial;
+body {
+    margin: 0px;
+    font-family: arial;
     display: flex;
-	flex-flow: row nonwrap;
-	flex: 1 1 100px
+    flex-flow: row nonwrap;
+    flex: 1 1 100px
 }
 
-.resumeArea{
-	width: 800px;
-	margin-left: 25px;
+.resumeArea {
+    width: 800px;
+    margin-left: 25px;
 }
-h1{
-	margin-bottom: -14px;
-	font-family: calibri;
+
+h1 {
+    margin-bottom: -14px;
+    font-family: calibri;
 }
 
 h1 span {
-	color: #feca07;
+    color: #feca07;
 }
 
-h2{
-	margin-bottom:-10px;
+h2 {
+    margin-bottom: -10px;
 }
 
-hr{
-	height:2px;
-	width: 80px;
-	margin-left: 0px;
-	border-width:0;
-	color:#feca07;
-	background-color:#feca07;
-	
+hr {
+    height: 2px;
+    width: 80px;
+    margin-left: 0px;
+    border-width: 0;
+    color: #feca07;
+    background-color: #feca07;
+
 }
 
 h3 {
-	margin-top: 32px;
-	text-decoration: underline;
-	font-weight: bold;
+    margin-top: 32px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-.jobLocation{
-	margin-top:16px;
-	font-weight: bold;
-	
+.jobLocation {
+    margin-top: 16px;
+    font-weight: bold;
+
 }
 
-.jobTitle{
-	font-style: italic;
-	
+.jobTitle {
+    font-style: italic;
+
 }
 
-p{
-	margin-top: -16px;
+p {
+    margin-top: -16px;
 }
 
 
-.sideBar{
-	background-color: #feca07;
-	width: 300px;
+.sideBar {
+    background-color: #feca07;
+    width: 300px;
 }
 
-img{
-	display: block;
-	border-style: solid;
-	border-color: #daaf12;
-	border-radius: 180px;
-	margin: 50px auto;
-	height: 175px;
-	width: 175px;
-}
-.contDiv{
-	background-color: #404040; 
-	height: 50px;
+img {
+    display: block;
+    border-style: solid;
+    border-color: #daaf12;
+    border-radius: 180px;
+    margin: 50px auto;
+    height: 175px;
+    width: 175px;
 }
 
-.contDiv p{
-	font-weight: bold;
-	font-size: 25px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 50px;
-	text-transform: uppercase;
-	color: #feca07;
+.contDiv {
+    background-color: #404040;
+    height: 50px;
 }
 
-.content p{
-	color: 	#45423d;
-	margin: 40px 40px;
-	letter-spacing: 2px;
+.contDiv p {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #feca07;
+}
+
+.content p {
+    color: #45423d;
+    margin: 40px 40px;
+    letter-spacing: 2px;
 }
