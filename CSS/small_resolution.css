@@ -4,7 +4,8 @@ body {
     display: flex;
     flex-flow: column;
 	align-items: baseline;
-    flex: 1 1 100px
+    flex: 1 1 100px;
+    
 }
 
 .resumeArea {
@@ -34,8 +35,9 @@ body {
 }
 .content p {
     color: #45423d;
-    margin: 50px auto;
+    margin: 25px auto;
     letter-spacing: 2px;
+    font-size: 2vw;
 }
 h1 {
     margin-bottom: -14px;
