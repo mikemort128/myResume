@@ -11,6 +11,10 @@ body {
     margin-left: 25px;
 }
 
+.smallHeading{
+    display: none;
+}
+
 h1 {
     margin-bottom: -14px;
     font-family: calibri;

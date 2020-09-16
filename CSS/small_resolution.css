@@ -2,25 +2,41 @@ body {
     margin: 0px;
     font-family: arial;
     display: flex;
-    flex-flow: column nonwrap;
+    flex-flow: column;
 	align-items: baseline;
     flex: 1 1 100px
 }
 
-img {
+.resumeArea {
+    width: 100%;
+    margin-left: 5px;
+	margin-right: 25px;
+}
+.smallHeading {
+  display: block;
+  width: 100%;  
+  background-color: #feca07;
+  text-align: center;
+}
+
+.smallHeading img{
+    display: block;
     border-style: solid;
     border-color: #daaf12;
     border-radius: 180px;
     margin: 50px auto;
-    height: 175px;
-    width: 175px;
-}
-.resumeArea {
-    width: 100%;
-    margin-left: 25px;
-	margin-right: 25px;
+    height: 200px;
+    width: 200px;
 }
 
+.content span{
+    font-weight:bold;
+}
+.content p {
+    color: #45423d;
+    margin: 50px auto;
+    letter-spacing: 2px;
+}
 h1 {
     margin-bottom: -14px;
     font-family: calibri;
@@ -68,29 +84,4 @@ p {
 
 .sideBar {
 	display: none;
-    background-color: black;
-    width: 100%;
-}
-
-
-
-.contDiv {
-    background-color: #404040;
-    height: 50px;
-}
-
-.contDiv p {
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #feca07;
-}
-
-.content p {
-    color: #45423d;
-    margin: 40px 40px;
-    letter-spacing: 2px;
 }
