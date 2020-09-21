@@ -2,7 +2,7 @@ body {
     margin: 0px;
     font-family: arial;
     display: flex;
-    flex-flow: row nonwrap;
+    flex-flow: row;
     flex: 1 1 100px
 }
 
